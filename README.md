@@ -31,3 +31,22 @@ This project demonstrates the deployment of a scalable and highly available Thre
 
 ## Outcome
 Successfully deployed a Three-Tier Architecture using AWS cloud services.
+## Project Screenshots
+
+### Website Home Page
+![Website](screenshots/WEBSITE IMAGE.png)
+
+### EC2 Instance
+![EC2](screenshots/EC2.png)
+
+### Load Balancer
+![Load Balancer](screenshots/LOADBALANCER.png)
+
+### Auto Scaling Group
+![Auto Scaling](screenshots/AUTOSCALING.png)
+
+### RDS Database
+![RDS](screenshots/RDS.png)
+
+### VPC Configuration
+![VPC](screenshots/VPC.png)
