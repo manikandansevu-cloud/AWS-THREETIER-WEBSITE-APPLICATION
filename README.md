@@ -43,7 +43,7 @@ Successfully deployed a Three-Tier Architecture using AWS cloud services.
 ![Load Balancer](screenshots/LOADBALANCER.png)
 
 ### Auto Scaling Group
-![Auto Scaling](screenshots/AUTOSCALING.png)
+![Auto Scaling Group](screenshots/AUTOSCALING.png)
 
 ### RDS Database
 ![RDS](screenshots/RDS.png)
