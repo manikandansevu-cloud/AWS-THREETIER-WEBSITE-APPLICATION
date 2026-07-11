@@ -89,41 +89,39 @@ The application uses Auto Scaling to automatically manage EC2 instances, an Appl
 
 # Project Screenshots
 
-## Website Home Page
+## 🌐 Website Home Page
 
-![Website](screenshots/WEBSITE%20IMAGE.png)
-
----
-
-## EC2 Instance
-
-![EC2](screenshots/EC2.png)
+<img src="./screenshots/WEBSITEIMAGE.png" width="100%">
 
 ---
 
-## Application Load Balancer
+## 💻 EC2 Instance
 
-![Load Balancer](screenshots/LOADBALANCER.png)
-
----
-
-## Auto Scaling Group
-
-![Auto Scaling Group](screenshots/AUTOSCALING.png)
+<img src="./screenshots/EC2.png" width="100%">
 
 ---
 
-## Amazon RDS
+## ⚖️ Application Load Balancer
 
-![RDS](screenshots/RDS.png)
+<img src="./screenshots/LOADBALANCER.png" width="100%">
+
+---
+
+## 📈 Auto Scaling Group
+
+<img src="./screenshots/AUTOSCALING.png" width="100%">
 
 ---
 
-## VPC Configuration
+## 🗄️ Amazon RDS
 
-![VPC](screenshots/VPC.png)
+<img src="./screenshots/RDS.png" width="100%">
 
 ---
+
+## 🌍 Amazon VPC
+
+<img src="./screenshots/VPC.png" width="100%">
 
 ## Outcome
 
