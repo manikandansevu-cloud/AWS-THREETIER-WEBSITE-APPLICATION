@@ -86,42 +86,41 @@ The application uses Auto Scaling to automatically manage EC2 instances, an Appl
 6. Database returns the requested data.
 
 ---
+# 📸 Project Screenshots
 
-# Project Screenshots
 ## 🌐 Website Home Page
 
-<img src="./screenshots/WEBSITEIMAGE.png" width="100%">
+![Website](./screenshots/WEBSITEIMAGE.png)
 
 ---
 
 ## 💻 EC2 Instance
 
-<img src="./screenshots/EC2.png" width="100%">
+![EC2](./screenshots/EC2.png)
 
 ---
 
 ## ⚖️ Application Load Balancer
 
-<img src="./screenshots/LOADBALANCER.png" width="100%">
+![Load Balancer](./screenshots/LOADBALANCER.png)
 
 ---
 
 ## 📈 Auto Scaling Group
 
-<img src="./screenshots/AUTOSCALING.png" width="100%">
+![Auto Scaling](./screenshots/AUTOSCALING.png)
 
 ---
 
 ## 🗄️ Amazon RDS
 
-<img src="./screenshots/RDS.png" width="100%">
+![RDS](./screenshots/RDS.png)
 
 ---
 
 ## 🌍 Amazon VPC
 
-<img src="./screenshots/VPC.png" width="100%">
-
+![VPC](./screenshots/VPC.png)
 ## Outcome
 
 Successfully deployed a highly available and scalable **Three-Tier Web Application** on AWS using:
