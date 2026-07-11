@@ -1,129 +1,129 @@
-# AWS Three-Tier Web Application Deployment
+# ☁️ AWS Three-Tier Web Application Deployment
 
-## Project Overview
-
-This project demonstrates the deployment of a scalable, secure, and highly available **Three-Tier Web Application** on Amazon Web Services (AWS).
-
-The application uses Auto Scaling to automatically manage EC2 instances, an Application Load Balancer (ALB) to distribute incoming traffic, and Amazon RDS as the backend database.
-
----
-
-## AWS Services Used
-
-- Amazon EC2
-- Amazon RDS (PostgreSQL)
-- Application Load Balancer (ALB)
-- Auto Scaling Group
-- Amazon VPC
-- Internet Gateway
-- Public & Private Subnets
-- Route Tables
-- Security Groups
-- IAM
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws)
+![EC2](https://img.shields.io/badge/EC2-Running-blue?style=for-the-badge)
+![RDS](https://img.shields.io/badge/RDS-MySQL-green?style=for-the-badge)
+![ALB](https://img.shields.io/badge/Application_Load_Balancer-Active-red?style=for-the-badge)
+![Auto Scaling](https://img.shields.io/badge/Auto_Scaling-Enabled-success?style=for-the-badge)
 
 ---
 
-## Architecture
+# 📌 Project Overview
 
-### Presentation Tier
-- Hosts the web application on EC2 instances.
-- Receives user traffic through the Application Load Balancer.
-- Provides high availability using Auto Scaling.
+This project demonstrates the deployment of a **Three-Tier Web Application** on **Amazon Web Services (AWS)** using highly available and scalable cloud infrastructure.
 
-### Application Tier
-- Processes user requests.
-- Connects securely with the database.
-- Runs PHP/Apache application.
+The architecture consists of:
 
-### Database Tier
-- Stores application data in Amazon RDS.
-- Accessible only from the application servers.
-- Secured using Security Groups.
+- 🌐 Presentation Tier (EC2)
+- ⚙️ Application Tier
+- 🗄 Database Tier (Amazon RDS)
+
+The application uses **Application Load Balancer**, **Auto Scaling**, **Amazon RDS**, and **Amazon VPC** to provide a secure and highly available environment.
 
 ---
 
-## Features
+# 🏗 AWS Architecture
+
+```
+                     Internet
+                         │
+                         ▼
+            Application Load Balancer
+                         │
+          ┌──────────────┴──────────────┐
+          │                             │
+      EC2 Instance                  EC2 Instance
+    (Auto Scaling)                (Auto Scaling)
+          │                             │
+          └──────────────┬──────────────┘
+                         │
+                     Amazon RDS
+                      MySQL DB
+```
+
+---
+
+# 🚀 AWS Services Used
+
+| AWS Service | Purpose |
+|-------------|---------|
+| Amazon EC2 | Web Server |
+| Amazon RDS | Database |
+| Application Load Balancer | Load Balancing |
+| Auto Scaling Group | Automatic Scaling |
+| Amazon VPC | Network |
+| Security Groups | Firewall |
+| IAM | Identity Management |
+| Internet Gateway | Internet Access |
+
+---
+
+# ✨ Features
 
 - High Availability
 - Auto Scaling
 - Application Load Balancer
-- Secure VPC Architecture
-- Database Integration with Amazon RDS
-- Public and Private Subnets
+- Amazon RDS Database
+- Secure VPC
+- Public & Private Subnets
+- Security Groups
 - Fault Tolerance
-- Scalable Infrastructure
+- Scalable Architecture
 
 ---
 
-## AWS Architecture
+# 🔄 Project Workflow
 
-```
-                    Internet
-                        │
-                        ▼
-          Application Load Balancer
-                        │
-          ┌─────────────┴─────────────┐
-          │                           │
-      EC2 Instance               EC2 Instance
-    (Auto Scaling)            (Auto Scaling)
-          │                           │
-          └─────────────┬─────────────┘
-                        │
-                   Amazon RDS
-                  (PostgreSQL)
-```
-
----
-
-## Project Workflow
-
-1. User accesses the application using the Load Balancer DNS.
-2. Application Load Balancer distributes traffic.
-3. Auto Scaling launches or terminates EC2 instances based on demand.
-4. EC2 instances process application requests.
-5. Application communicates with Amazon RDS.
+1. User accesses the application.
+2. Request reaches the Application Load Balancer.
+3. Load Balancer distributes traffic to EC2 instances.
+4. Auto Scaling manages EC2 instances automatically.
+5. EC2 connects securely to Amazon RDS.
 6. Database returns the requested data.
 
 ---
+
 # 📸 Project Screenshots
 
 ## 🌐 Website Home Page
 
-![Website](./screenshots/WEBSITEIMAGE.png)
+![Website](screenshots/WEBSITEIMAGE.png)
 
 ---
 
-## 💻 EC2 Instance
+## 💻 Amazon EC2 Instance
 
-![EC2](./screenshots/EC2.png)
+![EC2](screenshots/EC2.png)
 
 ---
 
 ## ⚖️ Application Load Balancer
 
-![Load Balancer](./screenshots/LOADBALANCER.png)
+![Load Balancer](screenshots/LOADBALANCER.png)
 
 ---
 
 ## 📈 Auto Scaling Group
 
-![Auto Scaling](./screenshots/AUTOSCALING.png)
+![Auto Scaling](screenshots/AUTOSCALING.png)
 
 ---
 
-## 🗄️ Amazon RDS
+## 🗄 Amazon RDS Database
 
-![RDS](./screenshots/RDS.png)
+![RDS](screenshots/RDS.png)
 
 ---
 
 ## 🌍 Amazon VPC
 
-![VPC](./screenshots/VPC.png)
-## Outcome
+![VPC](screenshots/VPC.png)
 
-Successfully deployed a highly available and scalable **Three-Tier Web Application** on AWS using:
+---
+
+# 🎯 Project Outcome
+
+Successfully deployed a **Three-Tier Web Application** on AWS using:
 
 - Amazon EC2
 - Application Load Balancer
@@ -131,17 +131,47 @@ Successfully deployed a highly available and scalable **Three-Tier Web Applicati
 - Amazon RDS
 - Amazon VPC
 - Security Groups
+- IAM
 
-This architecture ensures scalability, fault tolerance, load balancing, and secure communication between the application and database tiers.
+### Benefits
+
+- ✔ High Availability
+- ✔ Scalability
+- ✔ Secure Infrastructure
+- ✔ Load Balancing
+- ✔ Automatic Scaling
+- ✔ Database Integration
 
 ---
 
-## Author
+# 📂 Repository Structure
+
+```
+AWS-THREETIER-WEBSITE-APPLICATION/
+│
+├── README.md
+│
+└── screenshots/
+    ├── WEBSITEIMAGE.png
+    ├── EC2.png
+    ├── LOADBALANCER.png
+    ├── AUTOSCALING.png
+    ├── RDS.png
+    └── VPC.png
+```
+
+---
+
+# 👨‍💻 Author
 
 **Manikandan S**
 
 AWS Cloud Practitioner
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/manikandansevu-cloud
 
-LinkedIn: https://www.linkedin.com/in/YOUR_PROFILE/
+LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN/
+
+---
+
+## ⭐ If you found this project useful, please give it a Star!
