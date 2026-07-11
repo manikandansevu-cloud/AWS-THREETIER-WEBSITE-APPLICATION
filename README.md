@@ -101,7 +101,9 @@ The application uses **Application Load Balancer**, **Auto Scaling**, **Amazon R
 
 ## ⚖️ Application Load Balancer
 
-![Load Balancer](screenshots/LOADBALANCER.png)
+## ⚖️ Application Load Balancer
+
+![Load Balancer](./screenshots/LOAD%20BALANCER.png)
 
 ---
 
