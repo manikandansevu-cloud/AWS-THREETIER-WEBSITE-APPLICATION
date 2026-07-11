@@ -85,7 +85,7 @@ The application uses **Application Load Balancer**, **Auto Scaling**, **Amazon R
 
 # 📸 Project Screenshots
 
-## 🌐 Website Home Page
+
 
 ## 🌐 Website Home Page
 
@@ -99,7 +99,7 @@ The application uses **Application Load Balancer**, **Auto Scaling**, **Amazon R
 
 ---
 
-## ⚖️ Application Load Balancer
+
 
 ## ⚖️ Application Load Balancer
 
@@ -107,9 +107,11 @@ The application uses **Application Load Balancer**, **Auto Scaling**, **Amazon R
 
 ---
 
+
+
 ## 📈 Auto Scaling Group
 
-![Auto Scaling](screenshots/AUTOSCALING.png)
+![Auto Scaling Group](./screenshots/AUTO%20SCALING.png)
 
 ---
 
