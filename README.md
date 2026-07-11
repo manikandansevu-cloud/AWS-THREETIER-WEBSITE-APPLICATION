@@ -88,7 +88,6 @@ The application uses Auto Scaling to automatically manage EC2 instances, an Appl
 ---
 
 # Project Screenshots
-
 ## 🌐 Website Home Page
 
 <img src="./screenshots/WEBSITEIMAGE.png" width="100%">
