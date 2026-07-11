@@ -87,7 +87,9 @@ The application uses **Application Load Balancer**, **Auto Scaling**, **Amazon R
 
 ## 🌐 Website Home Page
 
-![Website](screenshots/WEBSITEIMAGE.png)
+## 🌐 Website Home Page
+
+![Website](./screenshots/WEBSITE%20IMAGE.png)
 
 ---
 
